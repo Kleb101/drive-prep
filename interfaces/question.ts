@@ -1,7 +1,9 @@
 export interface Question {
-  answer?: number;
+  answer: number;
   choices: string[];
+  comment?: string;
+  description?: string;
   id: number;
-  imageSrc: string;
+  imageSrc?: string;
   question: string;
 }
