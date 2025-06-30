@@ -1,0 +1,904 @@
+[
+  {
+    "number": 1,
+    "question": "When can a child be exempted to be sit in a child restrain system?",
+    "choices": [
+      "a. If the child will be late for a medical appointment",
+      "b. If the child is going to school",
+      "c. If the child is sick and needs to be brought to a hospital for emergency medical treatment (or has a medical certificate)"
+    ]
+  },
+  {
+    "number": 2,
+    "question": "What are the three most common sobriety tests? (Ano ang mga pagsusuri sa pagmamaneho na madalas ginagawa sa alak ang isang drayber?)",
+    "choices": [
+      "a. Eye test, walk and turn, one leg stand (Pag subok sa mata, maglakad at bumalik, isang paa ay nakatayo)",
+      "b. Eye movement, hand and foot coordination, and balancing skills",
+      "c. Reading and Comprehension Test, singing the National Anthem, and dancing the Tinikling."
+    ]
+  },
+  {
+    "number": 3,
+    "question": "How do you respond to a situation where you are approaching your garage to the right and you need to pass on a bike lane which is open, but a speeding SUV unexpectedly comes from behind? (Paano mo tutugunan ang isang sitwasyon kung saan papalapit ka sa iyong garahe sa kanan at kailangan mong dumaan sa bike lane, nang isang mabilis na SUV ay hindi inaasahan na ginagamit ang bike lane upang mag-overtake sa iyo?)",
+    "choices": [
+      "a. Give way to the speeding SUV (Magbigay daan sa mabilis na SUV)",
+      "b. Give way to motorists on the left (magbigay daan sa motorista sa kaliwa)",
+      "c. Give way to cyclists (magbigay daan sa mga siklista)"
+    ]
+  },
+  {
+    "number": 4,
+    "question": "What is the penalty if a driver is found to have a fake or counterfeit license? (Ano ang kabuuan ng kaparusahan kung ang isang drayber ay may huwad/pekeng huwad ang kanyang lisensya?)",
+    "choices": [
+      "a. His/her driver's license shall be confiscated and he/she shall be disqualified from being issued a driver's license and driving a motor vehicle for a period of one (1) year from discovery, and a monetary fine. (Ang kanyang lisensya ay kumpiskahin at siya ay didiskwalipika sa pagmamaneho at makakahanap ng monetary fine.)",
+      "b. Imprisonment of 3 months plus fine (Pagkakulong ng 3 buwan at multa)",
+      "c. Banned from getting a driver's license (Hindi na magbibigay nang lisensya ng basta-basta)"
+    ]
+  },
+  {
+    "number": 5,
+    "question": "What is the penalty if a driver is convicted of a crime while using a motor vehicle? (Ano ang magiging kaparusahan kung ang isang drayber ay nahatulan ng krimen na gumagamit ng sasakyan?)",
+    "choices": [
+      "a. The DL will be revoked and the driver will be perpetually disqualified from applying for a license plus monetary fine (Mula at habambuhay na diskwalipikasyon sa pagkuha ng lisensya)",
+      "b. The DL will be suspended and the driver will pay a fine (Sususpendehin ang lisensya at siya ay pagmumultahin)",
+      "c. The DL will be confiscated (Ang lisensya ay kukumpiskahin)"
+    ]
+  },
+  {
+    "number": 6,
+    "question": "LTO rules and regulations prohibit drivers of public utility vehicles from: (Ang mga tuntunin at regulasyon ng LTO ay nagbabawal sa mga drayber ng mga public utility vehicle na:)",
+    "choices": [
+      "a. overcharging fares and fast taximeters (sumingil ng labis na pamasahe at magkaroon ng mabilis na metro ng taxi)",
+      "b. cutting trip or going beyond authorized line (cutting trip o wala sa ipinaintindihan na linya/ruta)",
+      "c. all of the answers are correct (lahat ng sagot ay tama)"
+    ]
+  },
+  {
+    "number": 7,
+    "question": "Who is a Professional Driver?",
+    "choices": [
+      "a. Any expert and experienced driver (sinumang eksperto at may karanasan na drayber)",
+      "b. Any driver who can operate a motor vehicle (sinumang drayber na makapagmaneho ng sasakyan)",
+      "c. Any driver who has been issued a professional driver's license from the LTO (Sinumang drayber na nabigyan ng lisensya ng propesyonal mula sa LTO)"
+    ]
+  },
+  {
+    "number": 8,
+    "question": "How many days do you need to settle a traffic violation?",
+    "choices": [
+      "a. Within 15 days (Sa loob ng 15 araw)",
+      "b. Within 10 days (Sa loob ng 10 araw)",
+      "c. Within 30 days (Sa loob ng 30 araw)"
+    ]
+  },
+  {
+    "number": 9,
+    "question": "What is the maximum validity of license that a driver may have if he/she has no traffic violation at the time of renewal? (Ilang taon ang maximum validity ng lisensya ng isang drayber kung wala itong traffic violation sa oras ng pag-renew?)",
+    "choices": [
+      "a. 5 years validity",
+      "b. 10 years validity",
+      "c. 15 years validity"
+    ]
+  },
+  {
+    "number": 10,
+    "question": "Can a driver be given a 10-year validity license if he/she had traffic violation? (Maaari bang bigyan ng 10 taon na lisensya ang isang drayber kung ito ay mayroon nang traffic violation?)",
+    "choices": [
+      "a. No (Hindi)",
+      "b. Yes (Oo)",
+      "c. Yes, if all penalties are paid 15 days prior to renewal (Oo kung ang penalty ay nabayaran bago mag-renew)"
+    ]
+  },
+  {
+    "number": 11,
+    "question": "What is the allowed age to apply for a Non-Professional driver's license? (Ano ang tamang edad upang magkaroon ng lisensya?)",
+    "choices": [
+      "a. 16 years old",
+      "b. 17 years old",
+      "c. 20 years old"
+    ]
+  },
+  {
+    "number": 12,
+    "question": "Registration of motor vehicle may be suspended if: (Maaaring isuspende ang rehistro ng sasakyan kung:)",
+    "choices": [
+      "a. motor vehicle is found to be in conformity with regulations (kung ang sasakyan ay mayroon na nakapasa sa inspeksyon)",
+      "b. motor vehicle is found to be unsightly (ang sasakyan ay hindi kaaya-aya)",
+      "c. registered so nagmamaneho sa oras ng pagkahuli nito"
+    ]
+  },
+  {
+    "number": 13,
+    "question": "Where do you need to display your plate number? (Saan dapat ilagay ang plaka ng isang sasakyan?)",
+    "choices": [
+      "a. one in front and one in the rear of the vehicle (isa sa harap at isa sa likod ng sasakyan)",
+      "b. one in the front windshield and one at the back windshield (isa sa harap na windshield at isa sa likurang salamin)"
+    ]
+  },
+  {
+    "number": 14,
+    "question": "This traffic sign means \"Yield the right of way.\"",
+    "choices": [
+      "a. inverted triangle (baliktad na tatsulok)",
+      "b. diamond shape (hugis-diyamante)",
+      "c. hexagonal triangle (anim na sulok na tatsulok)"
+    ]
+  },
+  {
+    "number": 15,
+    "question": "What is the main purpose of traffic laws, rules and regulations?",
+    "choices": [
+      "a. To generate revenues for the government (Upang kumita ng pera ang pamahalaan)",
+      "b. To discipline the motorists (Disiplinahin ang mga motorista)",
+      "c. To keep order on the road (Magkaroon ng maayos na daloy ang mga sasakyan at ang mga tao sa kalsada)"
+    ]
+  },
+  {
+    "number": 16,
+    "question": "Green light at an intersection means: (Ang kulay berdeng ilaw sa isang interseksyon ay nangangahulugan na:)",
+    "choices": [
+      "a. pedestrians are allowed to cross all pedestrian lanes (pinahihintulutang tumawid ang lahat ng tawiran sa mga tao)",
+      "b. pedestrians are not allowed to cross all pedestrian lanes (hindi pinahihintulutang tumawid sa lahat ng tawiran sa mga tao)",
+      "c. the vehicles on the other street are stopped (ang mga sasakyan sa kabilang kalsada ay nakahinto)"
+    ]
+  },
+  {
+    "number": 17,
+    "question": "Flashing yellow light means: (Ang kumikislap-kislap na dilaw na ilaw ng trapiko ay nangangahulugan na:)",
+    "choices": [
+      "a. slowdown and proceed with caution (bagalan ang takbo at dumiretso nang may pag-iingat)",
+      "b. you have the right of way over all flashing yellow light (ikaw ang may karapatan sa lahat ng kumikislap-kislap na dilaw na ilaw)",
+      "c. vehicles will be crossing from the other side (may mga sasakyang tatawid mula sa kabilang panig)"
+    ]
+  },
+  {
+    "number": 18,
+    "question": "Parking is allowed if the vehicle is: (Ang pagparada ay pinahihintulutan kung ang sasakyan ay:)",
+    "choices": [
+      "a. beyond 4 meters of a fire hydrant (higit sa 4 na metro mula sa fire hydrant)",
+      "b. within 3 meters of the intersection (sa loob ng 3 metro mula sa interseksyon)",
+      "c. on the intersection (nasa interseksyon)"
+    ]
+  },
+  {
+    "number": 19,
+    "question": "Normally, on a two-lane road, overtaking is allowed on the: (Sa isang karaniwang dalawang-lane na kalsada, ang pag-overtake ay pinahihintulutan sa:)",
+    "choices": [
+      "a. shoulder or pavement of the road (kanang bahagi ng kalsada o bangketa)",
+      "b. blind curve with a yellow solid line (kurvada/blind curve na may buong linyang dilaw)",
+      "c. left lane (kaliwang lane)"
+    ]
+  },
+  {
+    "number": 20,
+    "question": "When do you have to make a complete full stop? (Kailan ka dapat ganap na huminto?)",
+    "choices": [
+      "a. At a flashing yellow light (Kapag may dilaw na kumikislap-kislap na ilaw)",
+      "b. At a red traffic light (Kapag pula ang ilaw ng trapiko)",
+      "c. At an intersection (Kapag nasa interseksyon)"
+    ]
+  },
+  {
+    "number": 21,
+    "question": "The proper hand signal for a right turn is: (Ang tamang senyas ng kamay para sa kanan ay:)",
+    "choices": [
+      "a. left arm pointing left (kaliwang braso nakaturo sa kaliwa)",
+      "b. left arm held pointing upward (kaliwang braso na nakaturo sa itaas)",
+      "c. left arm held in front, hand pointing at ground (kaliwang braso na nakaturo sa lupa)"
+    ]
+  },
+  {
+    "number": 22,
+    "question": "Single white broken line on a 2-way road means: (Ang puting putol-putol na linya sa kalsadang dalawang-daanan ay nangangahulugan na:)",
+    "choices": [
+      "a. passing or overtaking can be made anytime (ang paglampas o ang pag-overtake ay maaaring gawin anumang oras)",
+      "b. it separates traffic moving in opposite directions (hinihiwalay nito ang pagdaloy ng trapiko sa magkaibang direksyon)",
+      "c. absolutely no crossing (talagang hindi ipinahihintulutan ang pag-cross)"
+    ]
+  },
+  {
+    "number": 23,
+    "question": "What is the meaning of double solid yellow line? (Ano ang kahulugan ng dobleng linyang dilaw?)",
+    "choices": [
+      "a. Cross with due care (Tumawid nang maingat)",
+      "b. Cross anytime (Tumawid anumang oras)",
+      "c. Crossing/ traversing or overtaking is not allowed (Ang pagtawid/paglagpas o pag-overtake ay hindi pinapayagan)"
+    ]
+  },
+  {
+    "number": 24,
+    "question": "Upon approaching an intersection marked with a yield sign, you are required to: (Kapag papalapit sa isang interseksyon na may karatulang nagsasabing magbigay daan (yield), kailangan mong:)",
+    "choices": [
+      "a. stop before entering the intersection (huminto bago pumasok sa interseksyon)",
+      "b. slowdown, then enter the intersection when the way is clear (bagalan ang takbo at pagkatapos pumasok sa interseksyon kung ligtas)",
+      "c. enter the intersection immediately (pumasok agad sa interseksyon)"
+    ]
+  },
+  {
+    "number": 25,
+    "question": "The holder of a driver's license shall entitle him/her to operate: (Ang lisensya ay nagpapahintulot sa magmaneho ng:)",
+    "choices": [
+      "a. any kind of motor vehicle (anumang uri ng sasakyang de-motor)",
+      "b. vehicle/s specified in the license only (mga sasakyan lamang na nakatakda sa lisensya)",
+      "c. motor vehicles for hire only (mga pampublikong sasakyan lamang)"
+    ]
+  },
+  {
+    "number": 26,
+    "question": "When may you lend your driver's license? (Kailan mo maaaring ipahiram ang iyong lisensya?)",
+    "choices": [
+      "a. Under no circumstances (Hindi maaari kahit kailan)",
+      "b. To another person who is learning to drive (Sa medyo bata pa lang)",
+      "c. In emergencies (Sa oras ng kagipitan o emergency)"
+    ]
+  },
+  {
+    "number": 27,
+    "question": "At an intersection without stop or yield signs, two cars approach simultaneously to each other at the same time. Which driver must yield? (Sa interseksyon na walang stop o yield signs, dalawang sasakyan ang lumalapit sa isa't isa sa parehong oras. Sino sa mga drayber ang dapat magbigay daan?)",
+    "choices": [
+      "a. the motorist on the right (Ang drayber sa kanan)",
+      "b. the motorist on the left (Ang drayber sa kaliwa)",
+      "c. Either of the driver has the first right of way (Alinman sa dalawa ay may unang karapatan)"
+    ]
+  },
+  {
+    "number": 28,
+    "question": "Which of the following statement is true? (Alin sa mga sumusunod na pahayag ang totoo?)",
+    "choices": [
+      "a. A DL holder with authority to drive vehicles with manual transmission (MT) is not allowed to drive vehicles with automatic transmission (AT) (Ang isang may hawak ng DL na may awtoridad na magmaneho ng manual transmission (MT) ay hindi pinapayagan na magmaneho ng mga sasakyan na automatic transmission (AT))",
+      "b. A DL holder with authority to drive vehicles with automatic transmission (AT) is allowed to drive vehicles with manual transmission (MT) (Ang drayber na may hawak na lisensya para sa automatik na sasakyan ay pwedeng magmaneho ng sasakyang manual.)",
+      "c. A DL holder with authority to drive vehicles with manual transmission (MT) is allowed to operate any motor vehicle (Ang drayber na may hawak ng lisensya para sa manual transmission (MT) ay maaaring magmaneho ng may awtomatik na transmisyon)"
+    ]
+  },
+  {
+    "number": 29,
+    "question": "Can you drive a motorcycle if your license bears DL Code B? (Masari ka bang magmaneho ng motorsiklo kung ang iyong lisensya ay may DL Code B?)",
+    "choices": [
+      "a. Yes (Oo)",
+      "b. No, unless authorized by a traffic enforcer (Hindi, maliban kung pinahintulutan ng traffic enforcer)",
+      "c. No (Hindi)"
+    ]
+  },
+  {
+    "number": 30,
+    "question": "Identify this traffic sign: (Tukuyin kung anong senyas ito:)",
+    "description": "Image shows a traffic sign with a \"no u-turn\" symbol.",
+    "choices": [
+      "a. no u-turn (bawal mag u-turn)",
+      "b. dangerous left bend (mapanganib na kaliwang likuan)",
+      "c. dangerous right bend (mapanganib na kanang likuan)"
+    ]
+  },
+  {
+    "number": 31,
+    "question": "Identify this traffic sign: (Tukuyin kung anong senyas ito:)",
+    "description": "Image shows a traffic sign with a \"road widens\" symbol.",
+    "choices": [
+      "a. road widens ahead (lalapad ang kalsada sa unahan)",
+      "b. slippery road ahead (madulas na kalsada sa unahan)",
+      "c. road narrows ahead (papaliit na kalsada sa unahan)"
+    ]
+  },
+  {
+    "number": 32,
+    "question": "Identify this traffic sign: (Tukuyin kung anong senyas ito:)",
+    "description": "Image shows a traffic sign with a \"no blowing horn\" symbol.",
+    "choices": [
+      "a. no blowing of horn (bawal bumusina)",
+      "b. animals crossing (may mga hayop na tumatawid)",
+      "c. dangerous bend (mapanganib na likuan)"
+    ]
+  },
+  {
+    "number": 33,
+    "question": "Identify this traffic sign: (Tukuyin kung anong senyas ito:)",
+    "description": "Image shows a triangle warning sign, likely \"slippery road ahead\".",
+    "choices": [
+      "a. slippery road (madulas na kalsada)",
+      "b. winding road (paikot na daan)",
+      "c. curve ahead (may kurbada sa unahan)"
+    ]
+  },
+  {
+    "number": 34,
+    "question": "What is the meaning of this traffic sign? (Ano ang ibig sabihin ng senyas na ito?)",
+    "description": "Image shows a yellow diamond sign with a pedestrian symbol.",
+    "choices": [
+      "a. Pedestrian crossing (Tawiran)",
+      "b. Pedestrian crossing ahead (Papalapit na tawiran)",
+      "c. Caution - School Zone (Paalala-paaralan)"
+    ]
+  },
+  {
+    "number": 35,
+    "question": "Drinking alcohol before driving is one of the major causes of vehicle accidents if a driver is drunk, he/she is: (Ang pag-inom ng mga inuming nakalalasing bago magmaneho ay isa sa mga pangunahing sanhi ng aksidente ng mga sasakyan sapagkat kapag lasing ang isang drayber, siya ay:)",
+    "choices": [
+      "a. arrogant, talkative and doesn't have the judgement and the reflexes to drive safely (mayabang, madaldal, wala sa tamang desisyon at hindi makakikilos nang ligtas)",
+      "b. calm, relaxed and able to perform things accordingly (kalmado at nakapagpapatawad sa nararapat)",
+      "c. able to talk intelligently and coherently, and give every appearance of sobriety (matalino, kalmado at nakakakilos nang nararapat o naaayon)"
+    ]
+  },
+  {
+    "number": 36,
+    "question": "The Temporary Operator's Permit (TOP) authorizes the apprehended driver to operate a motor vehicle for a period not exceeding: (Pinahihintulutan ng Temporary Operator's Permit (TOP) ang nahuling drayber na magmaneho ng sasakyan sa loob ng:)",
+    "choices": [
+      "a. 72 hours (72 oras)",
+      "b. 1 week (1 linggo)",
+      "c. 15 days (15 araw)"
+    ]
+  },
+  {
+    "number": 37,
+    "question": "What is the maximum penalty for driving under the influence of liquor or prohibited drugs? (Ano ang pinakamabigat na kaparusahan sa pagmamaneho nang nakainom o nasa-droga?)",
+    "choices": [
+      "a. 6 months suspension (6 na buwan na suspensyon)",
+      "b. 1-year suspension (1 taong suspensyon)",
+      "c. Perpetual revocation of license (Pang habambuhay na pagkakasawi ng lisensya)"
+    ]
+  },
+  {
+    "number": 38,
+    "question": "What is the meaning of a blue traffic light? (Ano ang kahulugan ng asul na ilaw trapiko?)",
+    "choices": [
+      "a. None, no blue traffic light (Walang kulay asul na ilaw trapiko)",
+      "b. Informative sign (Nagbibigay impormasyon)",
+      "c. Proceed (Tumuloy)"
+    ]
+  },
+  {
+    "number": 39,
+    "question": "Motorcycle riders must consider safety and exercise due care. To do so, they are required to wear: (Ang mga nagmamaneho ng motorsiklo ay dapat na laging isinasaalang-alang ang lubos na pag-iingat at kaligtasan. Kaya kailangan nilang magsuot ng:)",
+    "choices": [
+      "a. a policeman cap or gloves (sombrero o guwantes ng pulis)",
+      "b. helmets intended for construction works (helmet na pang-construction)",
+      "c. standard protective helmets (naaangkop at aprubadong pang-motorsiklong helmet)"
+    ]
+  },
+  {
+    "number": 40,
+    "question": "What should you do when another vehicle is following you too close? (Ano ang gagawin mo kung ang sumusunod na sasakyan ay masyadong nakadikit sa iyo?)",
+    "choices": [
+      "a. Speed up to start a road race (Bilisan pa ang takbo upang makipagkarera)",
+      "b. Slow down gradually and give him the signal to overtake you (Dahan-dahang bagalan ang takbo at senyasan siyang mag-overtake)",
+      "c. Slam on your brakes (Biglang magpreno)"
+    ]
+  },
+  {
+    "number": 41,
+    "question": "Before changing lanes in traffic, aside from giving signal and checking your side and rearview mirrors, what else do you need to do? (Bago lumipat ng lane, bukod sa dapat munang sumenyas, tumingin sa mga gilid at rear view mirror, ano pa ang dapat mong gawin?)",
+    "choices": [
+      "a. Turn your head to check other vehicles beside your car (Tingnan ang mga katabing sasakyan)",
+      "b. Sound your horn (Bumusina)",
+      "c. Blink your headlights (Pailawin ang mga headlights)"
+    ]
+  },
+  {
+    "number": 42,
+    "question": "When approaching a sharp curve of the highway, you should: (Kapag papalapit sa isang pagliko/kurbada, dapat:)",
+    "choices": [
+      "a. reduce speed before entering the curve (bagalan ang takbo bago lumiko)",
+      "b. increase speed while negotiating the curve (bilisan ang takbo habang lumiliko)",
+      "c. apply your brakes abruptly while taking the curve (biglang magpreno habang lumiliko)"
+    ]
+  },
+  {
+    "number": 43,
+    "question": "What is the best safety rule when driving a motor vehicle? (Ano ang pinakaligtas na panuntunan habang ikaw ay nagmamaneho?)",
+    "choices": [
+      "a. Never insist on your right-of-way (Huwag ipilit ang karapatan sa daan)",
+      "b. Blow your horn to assert your right-of-way (Bumusina upang maigiit ang iyong karapatan sa daan)",
+      "c. Always demand for the right-of-way (Laging igiit ang karapatan sa daan)"
+    ]
+  },
+  {
+    "number": 44,
+    "question": "A blind spot is either at your right or left that you do not see on your side mirror. What should you do before backing-up? (Ang blind spot ay nasa awing kanan o kaliwa na hindi mo nakikita sa iyong side mirror. Ano ang dapat mong gawin bago umatras?)",
+    "choices": [
+      "a. Turn your head to see that the way is clear (Lumingon upang matiyak na walang nakaharang na daan)",
+      "b. Turn your wheel all the way to the right and pull up (Ipaling nang sagad ang gulong sa kanan bago huminto)",
+      "c. Turn your wheel all the way to the left and pull up (Ipaling nang sagad ang gulong sa kaliwa bago huminto)"
+    ]
+  },
+  {
+    "number": 45,
+    "question": "Road crash can be avoided if the drivers: (Maiiwasan ang mga road crash kung:)",
+    "choices": [
+      "a. follow traffic signs and pertinent traffic rules and regulations (susundin ang mga senyas trapiko at mga alituntunin at regulasyon ng batas trapiko)",
+      "b. totally disobey traffic laws (ganap na hindi susundin ang mga batas trapiko)",
+      "c. are ignorant of traffic laws (ang mga drayber ay walang alam sa batas trapiko)"
+    ]
+  },
+  {
+    "number": 46,
+    "question": "What should you do whenever you are driving on a highway with a lot of potholes? (Ano ang dapat mong gawin kapag nagmamaneho sa highway na maraming lubak?)",
+    "choices": [
+      "a. increase speed (Bilisan ang takbo)",
+      "b. decrease speed (Bagalan ang takbo)",
+      "c. always change lane (Palaging lumipat ng lane)"
+    ]
+  },
+  {
+    "number": 47,
+    "question": "What is the ultimate result of a road rage? (Ano ang pinakamataas na resulta ng pagka-bad trip sa kalsada?)",
+    "choices": [
+      "a. Death (Kamatayan)",
+      "b. Lawsuit (Demandahan)",
+      "c. Refreshment"
+    ]
+  },
+  {
+    "number": 48,
+    "question": "If you feel drowsy while driving, it is important that you: (Kung nakakaramdam ka ng pagkaantok habang nagmamaneho, mahalaga na ikaw ay:)",
+    "choices": [
+      "a. park at a safe place, and take a short break before proceeding (magparada sa ligtas na lugar at magpahinga bago magpatuloy)",
+      "b. speed up to reach your destination faster (bilisan ang takbo upang makarating sa patutunguhan nang mas mabilis)",
+      "c. keep driving, switch on the hazard lights and take a nap (huminto sa kalagitnaan ng kalsada, isara ang ilaw ng hazard at matulog)"
+    ]
+  },
+  {
+    "number": 49,
+    "question": "Can a driver allow a hitch on his vehicle? (Maaari bang patulungan ang drayber ang nakasakay sa kanyang sasakyan?)",
+    "choices": [
+      "a. No, especially without permission from an enforcer (Hindi, lalo na walang permiso sa traffic enforcer)",
+      "b. No, road crash may happen (Hindi, maaaring magka-aksidente)",
+      "c. No (Hindi)"
+    ]
+  },
+  {
+    "number": 50,
+    "question": "What is the first thing to do if you experience a tire blowout? (Ano ang una mong dapat gawin kung ikaw ay nakaranas ng tire blowout?)",
+    "choices": [
+      "a. Don't stop on the brakes, focus on the steering wheel (huwag tapakan ang preno, at magpokus sa manibela)",
+      "b. Step on your brakes immediately to avoid hitting the motor vehicle in front of you (agad na tapakan ang brakes upang maiwasan ang pagbangga sa mga sasakyan na nasa iyong harapan)",
+      "c. Switch off the engine (patayin ang makina)"
+    ]
+  },
+  {
+    "number": 51,
+    "question": "What is the main purpose of having a vehicle undergo regular vehicle maintenance inspection? (Ano ang pangunahing layunin ng regular na pag inspeksyon ng isang sasakyan?)",
+    "choices": [
+      "a. to verify the chassis and engine numbers of the vehicle (Para siyasatin ang mga numero ng chassis at motor ng sasakyan)",
+      "b. to check the roadworthiness of the vehicle (Para tingnan ang kaayusan ng sasakyan)",
+      "c. to check the driver's performance (Para tingnan ang pagganap ng drayber sa kanyang pagmamaneho)"
+    ]
+  },
+  {
+    "number": 52,
+    "question": "When do you need to follow the traffic rules and regulations? (Kailan mo kailangan dapat gamitin ang seat belt?)",
+    "choices": [
+      "a. When driving on a national road (Kung nagmamaneho sa malaking pang-publikong daan)",
+      "b. When driving above 10 kph (Kung nagmamaneho ng 10 kph pataas)",
+      "c. While the engine is running and before moving off (Bago umalis)"
+    ]
+  },
+  {
+    "number": 53,
+    "question": "Under R.A. 8750, Children must be properly restrained if they are under 6 years old? (Ayon sa R.A. 8750, ang mga bata ay dapat na nakalagay nang maayos kung sila ay mas mababa sa 6 taong gulang?)",
+    "choices": [
+      "a. 10 years old (10 taong gulang)",
+      "b. 6 years old and below (6 taong gulang at pababa)",
+      "c. 7 years old (7 taong gulang)"
+    ]
+  },
+  {
+    "number": 54,
+    "question": "In driving, the most important sense the driver needs to be properly functioning is: (Sa pagmamaneho, ang pinakamahalagang kasanayan na kailangan ng drayber ay:)",
+    "choices": [
+      "a. hearing (pandinig)",
+      "b. smelling (pang-amoy)",
+      "c. seeing (paningin)"
+    ]
+  },
+  {
+    "number": 55,
+    "question": "Identify this traffic sign: (Tukuyin kung anong senyas ito:)",
+    "description": "Image shows a circular sign with \"30 Kph\" and a red slash.",
+    "choices": [
+      "a. driving speed to beat the traffic (pagmamaneho nang mabilis upang mauna sa trapiko)",
+      "b. maximum limit of speed on the road (maximum limit ng bilis sa kalsada)",
+      "c. required speed limit 30 kph (kinakailangan na bilis na 30 kph)"
+    ]
+  },
+  {
+    "number": 56,
+    "question": "Identify this traffic sign: (Tukuyin kung anong senyas ito:)",
+    "description": "Image shows a red inverted triangle with \"GIVE WAY\".",
+    "choices": [
+      "a. you must give right-of-way (dapat kang magbigay daan)",
+      "b. you have the right-of-way (ikaw ay may karapatan sa daan)",
+      "c. early warning device (early warning device)"
+    ]
+  },
+  {
+    "number": 57,
+    "question": "What is the meaning of yellow painted curb? (Ano ang ibig sabihin ng nakapintang dilaw na kurbada?)",
+    "choices": [
+      "a. No loading/Unloading (Bawal ang magbaba at magsakay)",
+      "b. No Parking (Bawal pumarada)",
+      "c. No waiting (Bawal maghintay)"
+    ]
+  },
+  {
+    "number": 58,
+    "question": "What do you need to do upon parking and getting out of the vehicle? (Ano ang dapat mong gawin pagkatpos mag park at bago bumaba ng sasakyan?)",
+    "choices": [
+      "a. lock all the doors (isara lahat ng mga pintuan)"
+    ]
+  },
+  {
+    "number": 59,
+    "question": "What is the required color of headlights? (Ano ang kinakailangan na kulay ng headlight?)",
+    "choices": [
+      "a. Red (Pula)",
+      "b. White or yellowish white (Puti o dilaw-puti)",
+      "c. Blue (Asul)"
+    ]
+  },
+  {
+    "number": 60,
+    "question": "What is the required color of brake lights? (Ano ang kinakailangan na kulay ng brake lights?)",
+    "choices": [
+      "a. White (Puti)",
+      "b. Red (Pula)",
+      "c. Yellow (Dilaw)"
+    ]
+  },
+  {
+    "number": 61,
+    "question": "What are the requirements for motor vehicle registration? (Ano ang mga kailangan para sa pagpaparehistro ng sasakyan?)",
+    "choices": [
+      "a. Anti-carnapping clearance (Anti-carnapping clearance)",
+      "b. LTO inspection of the vehicle and emission test compliance (Inspeksyon ng sasakyan at emission test sa LTO)",
+      "c. District Traffic Enforcement Clearance (District Traffic Enforcement Clearance)"
+    ]
+  },
+  {
+    "number": 62,
+    "question": "When do you need to use your seat belt? (Kailan mo kailangan dapat gamitin ang seat belt?)",
+    "choices": [
+      "a. When driving on a national road (Kung nagmamaneho sa malaking pang-publikong daan)",
+      "b. When driving above 10 kph (Kung nagmamaneho ng 10 kph pataas)",
+      "c. While the engine is running and before moving off (Bago umalis)"
+    ]
+  },
+  {
+    "number": 63,
+    "question": "What is the primary objective of the Seat Belt Act? (Ano ang pangunahing layunin ng batas tungkol sa paggamit ng seat belt?)",
+    "choices": [
+      "a. To restrict the driver in times of road rage (Upang mapigil ang isang drayber na masangkot sa away kalsada)",
+      "b. To complete the practical driving course (Para kumpletuhin ang practical driving course)",
+      "c. To secure and safeguard the passengers and drivers of a motor vehicles (Para sa seguridad ng mga pasahero at mga drayber)"
+    ]
+  },
+  {
+    "number": 64,
+    "question": "What is the maximum height that a driver can install his mobile phone from the base of the dashboard? (Ilang pulgada ang maximum na taas ng telepono mula sa dashboard na sasakyan?)",
+    "choices": [
+      "a. 2 inches (Dalawang pulgada)",
+      "b. 4 inches (Apat na pulgada)",
+      "c. 6 inches (Anim na pulgada)"
+    ]
+  },
+  {
+    "number": 65,
+    "question": "Under R.A. No. 11229, What is the allowable age that a child may sit in front passenger seat of a car? (Ayon sa R.A. No. 11229, ano ang pinahihintulutang edad na maaaring umupo ang isang bata sa harap na upuan ng sasakyan?)",
+    "choices": [
+      "a. more than 12 years old (12 taong gulang pataas)",
+      "b. 18 years old and above (18 taong gulang at pataas)",
+      "c. 7 years old and above (7 taong gulang at pataas)"
+    ]
+  },
+  {
+    "number": 66,
+    "question": "What is the height requirement for a child to be exempted to use a child restraint system? (Ano ang taas ng isang bata upang makalimita sa paggamit ng child restraint system?)",
+    "choices": [
+      "a. 150 cms and over (150 sentimetro pataas)",
+      "b. 130 cms and above (130 sentimetro pataas)",
+      "c. 180 cms and above (180 sentimetro pataas)"
+    ]
+  },
+  {
+    "number": 67,
+    "question": "Is an expired child restraint system allowed to be used? (Pinapayagan bang gamitin ang isang child restraint system na nag-expire na?)",
+    "choices": [
+      "a. Yes (Oo)",
+      "b. No (Hindi)",
+      "c. Yes, provided that it is allowed by traffic enforcers (Oo, basta't ay pinapayagan ng traffic enforcer)"
+    ]
+  },
+  {
+    "number": 68,
+    "question": "When does a driver need to wear a helmet when riding a motorcycle? (Kailan dapat magsuot ng drayber ang kanyang helmet?)",
+    "choices": [
+      "a. For long and short drives (Sa mahaba o maiksing biyahe)",
+      "b. For all types of road and in any type of road or highway (Para sa mahaba o maiksing biyahe at anumang uri ng kalsada)",
+      "c. For national road only (Para sa pangkalahatang kalsada lamang)"
+    ]
+  },
+  {
+    "number": 69,
+    "question": "What type of helmet should a rider must use? (Anong klaseng helmet ang dapat gamitin ng rider ng motorsiklo?)",
+    "choices": [
+      "a. Standard motorcycle helmet compliant to specifications of LTO (Standard motorcycle helmet na sumunod sa regulasyon ng LTO)",
+      "b. Standard motorcycle helmet compliant to specifications of DENR (Standard motorcycle helmet na sumunod sa panuntunan ng DENR)",
+      "c. Standard motorcycle helmet compliant to specifications of DTI (Standard motorcycle helmet na naayon sa panuntunan ng DTI)"
+    ]
+  },
+  {
+    "number": 70,
+    "question": "Who are responsible if a motorcycle was used in the commission of a crime? (Sino ang may pananagutan kung ang isang motorsiklo ay ginamit sa krimen?)",
+    "choices": [
+      "a. Owner, driver and backrider (May-ari, drayber, backrider)"
+    ]
+  },
+  {
+    "number": 71,
+    "question": "When you encounter an emergency vehicle (ambulance, fire truck, police) with sirens on, what should you do? (Kapag nakasabay mo ang isang sasakyang pang-emergency na nakabukas ang siren, ano ang dapat mong gawin?)",
+    "choices": [
+      "a. Obstruct their passage and never allow them to pass through (Harangan ang kanilang daanan at huwag silang hayaang dumaan)",
+      "b. Full ignore (Huwag pansinin)",
+      "c. Pull over to the right-hand side of the road and give way (Tumabi sa kanang bahagi ng kalsada at magbigay daan)"
+    ]
+  },
+  {
+    "number": 72,
+    "question": "A driver while on a highway shall yield the right of way to: (Ang isang drayber sa highway ay dapat magbigay daan sa:)",
+    "choices": [
+      "a. pedestrians crossing within a crosswalk (mga tatawid sa tawiran)",
+      "b. a traffic enforcer at an intersection (isang traffic enforcer sa interseksyon)",
+      "c. vehicles about to enter the highway (mga sasakyang papasok sa highway)"
+    ]
+  },
+  {
+    "number": 73,
+    "question": "With Antilock Braking System (ABS) installed on your vehicle, what should you do while driving with minimum speed and you have to stop suddenly? (Kapag may Anti-lock Braking System (ABS) ang sasakyan mo, at nagmamaneho ka sa minimum na bilis at kailangan mong biglang huminto, ano ang dapat mong gawin?)",
+    "choices": [
+      "a. Slam the brake pedal (Biglang magpreno)",
+      "b. Apply brakes gently with steady pressure (Unti-unting magpreno nang may steady pressure)",
+      "c. Pump the brake pedal (Bombahin ang preno sa pamamagitan ng pagtapik-tapik sa preno)"
+    ]
+  },
+  {
+    "number": 74,
+    "question": "Your speed while driving at night should depend on: (Ang bilis ng pagmamaneho sa gabi ay nakasalalay sa:)",
+    "choices": [
+      "a. the physical, mental condition and skill of the driver (pisikal, mental na kalagayan at kasanayan ng drayber)",
+      "b. the roadworthiness of the motor vehicle and weather condition (kaayusan ng sasakyan at kalagayan ng panahon)",
+      "c. all of the answers are correct (lahat ng sagot ay tama)"
+    ]
+  },
+  {
+    "number": 75,
+    "question": "The most effective way to deal with a tailgater is to: (Ang pinakamabisang paraan sa isang sumusunod ay:)",
+    "choices": [
+      "a. ignore him but do not allow him to get away (huwag siyang pansinin ngunit huwag siyang hayaang makalayo)",
+      "b. slow down and let him pass (bagalan ang takbo at bigyan daan ang nasa likod)",
+      "c. increase your speed and be alert on your brakes (bilisan ang takbo at maging alisto sa iyong preno)"
+    ]
+  },
+  {
+    "number": 76,
+    "question": "What may happen if the driver deliberately disregards a red light? (Ano ang maaaring mangyari kung sinadya ng drayber na balewalain ang pulang ilaw?)",
+    "choices": [
+      "a. A road crash (Aksidente sa kalsada)",
+      "b. Nothing (Wala)",
+      "c. Passengers will be happy (Masaya ang mga pasahero)"
+    ]
+  },
+  {
+    "number": 77,
+    "question": "When you want to change or shift to higher gear to speed up, and a car is on the opposite direction of your driving lane, what will you do? (Kapag nais mong magpalit o lumipat sa mas mataas na gear upang mas bumilis, at may sasakyan sa kabila ng iyong driving lane, ano ang gagawin mo?)",
+    "choices": [
+      "a. be alert, stop and give way to the car crossing (maging alisto, huminto at magbigay daan sa pagtawid ng mga sasakyan)",
+      "b. insist your right-of-way (igiit ang iyong karapatan sa daan)",
+      "c. turn left immediately (agad na kumaliwa)"
+    ]
+  },
+  {
+    "number": 78,
+    "question": "Who will win between two parties if they failed to overcome stress? (Sino ang mananalo kung ang bawat partido ay hindi malampasan ang stress o tensiyon?)",
+    "choices": [
+      "a. neither the aggressor nor the victim (wala sa agresibo o sa biktima)",
+      "b. adjudication officer (Opisyal ng adyudikasyon)",
+      "c. insurance company (insurance company)"
+    ]
+  },
+  {
+    "number": 79,
+    "question": "Driving along an open road, a PWD in a wheelchair abruptly crosses the road. How do you prevent yourself hitting the PWD? (Nagmamaneho ka sa isang kalsada, at ang PWD na naka wheelchair ay biglang tumawid sa kalsada, paano mo maiiwasang tamaan ang PWD?)",
+    "choices": [
+      "a. move fast (bilisan ang pagmamaneho)",
+      "b. hold on to steering wheel and shift to an open space to avoid the PWD (lumipat sa ligtas na lane o lugar upang maiwasan ang PWD)",
+      "c. Prepare to stop (Maghanda sa paghinto)"
+    ]
+  },
+  {
+    "number": 80,
+    "question": "Can a driver who had the opportunity to avoid a road crash and neglected to avoid such road crash be jointly held liable? (May pananagutan ba ang isang drayber na nagkaroon ng pagkakataon na maiwasan ang aksidente sa kalsada ngunit hindi ito naiwasan?)",
+    "choices": [
+      "a. Yes (Oo)",
+      "b. No (Hindi)",
+      "c. None of the above (Wala sa nabanggit)"
+    ]
+  },
+  {
+    "number": 81,
+    "question": "When parking, how many meters is allowed from the location of a fire hydrant? (Ilang metro ang layo na maaaring pumarada ang isang sasakyan sa fire hydrant?)",
+    "choices": [
+      "a. more than one meter of the fire hydrant (higit sa isang metro mula sa fire hydrant)",
+      "b. more than four meters of the fire hydrant (higit sa apat na metro mula sa fire hydrant)",
+      "c. there is no regulation as to where to park from the fire hydrant (walang regulasyon kung saan pumarada sa gilid ng fire hydrant)"
+    ]
+  },
+  {
+    "number": 82,
+    "question": "Driving a car, which lane should you use in a three (3) lane expressway during normal situation? (Anong linya ang dapat mong gamitin sa three-lane na expressway kung ikaw ay nagmamaneho ng kotse sa normal na sitwasyon?)",
+    "choices": [
+      "a. 1st lane (sa unang lane)",
+      "b. 2nd lane (Pangalawang lane)",
+      "c. 3rd lane (Pangatlong lane)"
+    ]
+  },
+  {
+    "number": 83,
+    "question": "Is a driver allowed to drive on the transition lines? (Maaari bang magmaneho sa mga transition lines sa kalsada?)",
+    "choices": [
+      "a. Yes (Oo)",
+      "b. No (Hindi)",
+      "c. Yes, if traffic flow is heavy (Oo, kung ang trapiko ay mabigat)"
+    ]
+  },
+  {
+    "number": 84,
+    "question": "What should you do if a pedestrian is crossing a nonsignalized pedestrian crossing? (Ano ang dapat mong gawin kung may tumatawid sa isang tawiran na walang senyas?)",
+    "choices": [
+      "a. Stop and let the pedestrian cross (Huminto at hayaang makatawid ang tawiran)",
+      "b. Stop and blow horn (Huminto at bumusina)",
+      "c. Drive faster and do not wait for the pedestrian to cross (Magmaneho ng mabilis at huwag hintaying makatawid ang mga tao)"
+    ]
+  },
+  {
+    "number": 85,
+    "question": "Where can you contest an illegal traffic citation?",
+    "choices": [
+      "a. In the traffic adjudication office concerned (Sa traffic adjudication office)",
+      "b. on the street, before the traffic enforcer leaves (sa kalye, bago umalis ang traffic enforcer)",
+      "c. anywhere (kahit saan)"
+    ]
+  },
+  {
+    "number": 86,
+    "question": "Who has the authority to confiscate a driver's license during a normal traffic violation? (Sino ang may awtoridad na kumpiskahin ang lisensya ng drayber sa isang normal na traffic violation?)",
+    "choices": [
+      "a. LTO Law Enforcement Officers or LTO Deputized Agents (LTO Law Enforcement Officers o LTO Deputized Agents)",
+      "b. anybody, for as long as the violation is within the provisions of R.A. No. 4136 (kahit sino, basta ang violation ay nasa ilalim ng R.A. No. 4136)",
+      "c. anybody, for as long as the traffic enforcer is a permanent employee of the LGU (kahit sino, basta ang traffic enforcer ay permanenteng empleyado ng LGU)"
+    ]
+  },
+  {
+    "number": 87,
+    "question": "A 30-day suspension of the driver's license shall be imposed if: (Ang 30-araw na suspensyon ng lisensya ng drayber ay ipapataw kung:)",
+    "choices": [
+      "a. The traffic violation committed is grave (kung ang paglabag sa batas trapiko ay malubha)",
+      "b. The driver fails to pay the corresponding penalty of the apprehension within 72 hours (kung nabigo ang drayber na magbayad ng kaukulang multa sa loob ng 72 oras)",
+      "c. The driver fails to pay within 72 hours (kung nabigo ang drayber na magbayad sa loob ng 72 oras)"
+    ]
+  },
+  {
+    "number": 88,
+    "question": "What does this hand signal mean when you are coming from the roadside and signaling to the right? (Ano ang ibig sabihin ng senyas kamay na ito kung ikaw ay galing sa gilid ng kalsada at sumesenyas sa kanan?)",
+    "choices": [
+      "a. You are turning left. (Kakanan)",
+      "b. You are turning right. (Kakanan)",
+      "c. You are going to stop. (Hihinto)"
+    ]
+  },
+  {
+    "number": 89,
+    "question": "What should be the appropriate action when you see this traffic sign? (Ano ang dapat mong gawin kung makita ang karatulang ito?)",
+    "description": "Image shows a yellow diamond sign with \"SLOW DOWN\", \"ACCIDENT\", \"PRONE AREA\".",
+    "choices": [
+      "a. Slow down and be more alert than usual (Bagalan ang takbo at maging mas alisto kaysa dati)",
+      "b. Increase your speed (Bilisan ang takbo)",
+      "c. Blow your horn and resume your normal speed (Bumusina at ipagpatuloy ang normal na bilis)"
+    ]
+  },
+  {
+    "number": 90,
+    "question": "Where do you usually see this traffic sign? (Saan mo madalas makita ang traffic sign na ito?)",
+    "description": "Image shows chevron signs, typically used for sharp curves or turns.",
+    "choices": [
+      "a. on sharp curves (Sa matatalim na liko)"
+    ]
+  },
+  {
+    "number": 91,
+    "question": "What is the violation of a driver overtaking at an intersection having a one lane direction? (Ano ang paglabag ng drayber na nag-overtake sa isang interseksyon na may isang lane lamang na direksyon?)",
+    "choices": [
+      "a. Overtaking at an intersection (Pag-overtake sa isang interseksyon)",
+      "b. Obstruction (Obstruction)",
+      "c. Disregarding traffic signals (Pagbalewala sa senyas trapiko)"
+    ]
+  },
+  {
+    "number": 92,
+    "question": "When are you allowed to pick up passengers at a pedestrian lane? (Kailan ka maaaring magsakay ng pasahero sa isang poot tawiran?)",
+    "choices": [
+      "a. When traffic enforcers are not looking (Kung hindi nakatingin ang mga traffic enforcers)",
+      "b. When a passenger is already waiting (Kung naghihintay na ang pasahero)",
+      "c. Loading and unloading passengers at a pedestrian lane is not allowed (Ang pagsakay at pagbaba ng mga pasahero sa pedestrian lane ay hindi pinahihintulutan)"
+    ]
+  },
+  {
+    "number": 93,
+    "question": "Is a driver allowed to load cargo more than the vehicle's registered load capacity? (Maaari bang magkarga ng kargamento na lampas sa itinakdang timbang ng sasakyan?)",
+    "choices": [
+      "a. Yes (Oo)",
+      "b. No (Hindi)",
+      "c. Yes, if the cargo is fragile or perishable (Oo, kung ang karga ay madaling mabagsag o nabubulok)"
+    ]
+  },
+  {
+    "number": 94,
+    "question": "Under the Children's Safety on Motorcycles Act, a child below 18 years old can't ride in a two-wheeled motorcycle unless: (Ayon sa Children's Safety on Motorcycles Act, ang isang bata na mas mababa sa 18 taong gulang ay hindi maaaring sumakay ng motorsiklo maliban kung:)",
+    "choices": [
+      "a. the child comfortably rests his/her feet on the standard foot peg of the motorcycle and he/she can reach around and grasp the waist of the motorcylist and he/she is wearing the standard protective helmet. (Ang bata ay kumportable na nakalagay ang mga paa sa standard foot peg ng motorsiklo at siya ay maaaring bumilang at humawak sa baywang ng motorsiklista, at siya ay nakasuot ng karaniwang helmet.)",
+      "b. in times of high density of fast moving vehicles or where a speed limit of 60kph is imposed. (Nasa maraming mga sasakyang mabilis o kung saan ang limitasyon ng bilis ay 60kph.)",
+      "c. The child is wearing the standard protective helmet (Ang drayber ay may suot na helmet)"
+    ]
+  },
+  {
+    "number": 95,
+    "question": "Which of the following is not a safe place to overtake? (Alin sa mga sumusunod ang hindi ligtas na lugar para mag-overtake/maglusot?)",
+    "choices": [
+      "a. before a bridge (bago ang tulay)",
+      "b. at an intersection (sa interseksyon)",
+      "c. on a one-way road (sa isang one-way na kalsada)"
+    ]
+  },
+  {
+    "number": 96,
+    "question": "What should a good driver do to help minimize pollution? (Ano ang dapat gawin ng isang mabuting drayber upang mabawasan ang polusyon?)",
+    "choices": [
+      "a. make you a good driver (makatutulong upang higit kang maging magaling na drayber)",
+      "b. involve you in a fatal road crash (maaari kang makasama sa aksidente at matatay)",
+      "c. decrease your fuel consumption (makatitipid sa konsumo ng gasolina o krudo)"
+    ]
+  },
+  {
+    "number": 97,
+    "question": "A good driver must meet one's social responsibilities of caring for other drivers by: (Ang maayos na drayber ay matutugunan ang responsibilidad sa lipunan sa pamamagitan nang:)",
+    "choices": [
+      "a. driving nobly to attract the attention of residents along the road (pagmamaneho nang maingay upang mapansin ng mga nadaanan na residente)",
+      "b. exercising care for other pedestrians and vehicles around (pagiging mapag-ingat sa mga tumatawid sa kalsada at mga sasakyang nakapaligid)",
+      "c. blowing one's horn every now and then to scare passers-by (haya't mayangang pagbusina upang takutin ang mga naglalakad)"
+    ]
+  },
+  {
+    "number": 98,
+    "question": "When the vehicle you are driving runs off the road or hits an electric post or a parked car, the most probable reason is: (Kapag ang minamaneho mong sasakyan ay lumihis sa kalsada o tumama sa poste ng kuryente o nakaparadang sasakyan, malamang na ang dahilan nito ay:)",
+    "choices": [
+      "a. you are driving too fast and you lost control of your vehicle (mabilis ang iyong pagpapatakbo at nawalan ka ng kontrol sa iyong sasakyan)",
+      "b. you lost brake (nawalan ka ng preno)",
+      "c. you are trying to overtake (mag-o-overtake ka sana)"
+    ]
+  },
+  {
+    "number": 99,
+    "question": "If your vehicle broke down on the road, what should you do? (Kapag nasiraan ka ng sasakyan sa daan, ano ang gagawin mo?)",
+    "choices": [
+      "a. Leave the vehicle and call for a mechanic (Iwan ang sasakyan at tumawag ka ng mekaniko)",
+      "b. Switch on the hazard warning lights and display an Early Warning Device (EWD) at four (4) meters behind the stalled vehicle (Pailawin ang hazard warning light at maglagay ng EWD apat (4) na metro man lamang sa likuran ng nakahintong sasakyan)",
+      "c. Turn off the engine and call for a mechanic (Patayin ang makina at tumawag ng mekaniko)"
+    ]
+  },
+  {
+    "number": 100,
+    "question": "What is the primary responsibility of a driver in times of a road crash? (Ano ang pangunahing responsibilidad ng isang drayber sa isang aksidente?)",
+    "choices": [
+      "a. Aid the victim (Tulungan ang naaksidente)",
+      "b. Run and hide (Tumakbo at magtago)",
+      "c. Call the police only (Tumawag lamang sa pulis)"
+    ]
+  }
+]
