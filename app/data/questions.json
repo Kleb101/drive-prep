@@ -877,7 +877,7 @@
     ]
   },
   {
-    "answer":0,
+    "answer": 0,
     "id": 88,
     "comment": "pang #98 question dapat ito. Tamang sagot is a",
     "question": "What does this hand signal mean when you are coming from the roadside and signaling to the right? (Ano ang ibig sabihin ng senyas kamay na ito kung ikaw ay galing sa gilid ng kalsada at sumesenyas sa kanan?)",
@@ -888,11 +888,11 @@
     ]
   },
   {
-    "answer":0,
+    "answer": 0,
     "id": 89,
     "comment": "pang #99 question dapat ito. Tamang sagot is a",
     "question": "What should be the appropriate action when you see this traffic sign? (Ano ang dapat mong gawin kung makita ang karatulang ito?)",
-    "description": "Image shows a yellow diamond sign with \"SLOW DOWN\", \"ACCIDENT\", \"PRONE AREA\".",
+    "imageSrc": "/slow-down-accident-prone.png",
     "choices": [
       "a. Slow down and be more alert than usual (Bagalan ang takbo at maging mas alisto kaysa dati)",
       "b. Increase your speed (Bilisan ang takbo)",
@@ -904,7 +904,7 @@
     "id": 90,
     "comment": "pang #100 question dapat ito. not sure basta hindi a",
     "question": "Where do you usually see this traffic sign? (Saan mo madalas makita ang traffic sign na ito?)",
-    "description": "Image shows chevron signs, typically used for sharp curves or turns.",
+    "imageSrc": "/hazard-markers.png",
     "choices": [
       "a. before the bridge (bago umabot sa tulay)",
       "b. before changing lane bridge (bago magpalit ng lane)",
@@ -945,7 +945,9 @@
     ]
   },
   {
+    "answer": 0,
     "id": 94,
+    "comment": "pang #91 question dapat ito.",
     "question": "Under the Children's Safety on Motorcycles Act, a child below 18 years old can't ride in a two-wheeled motorcycle unless: (Ayon sa Children's Safety on Motorcycles Act, ang isang bata na mas mababa sa 18 taong gulang ay hindi maaaring sumakay ng motorsiklo maliban kung:)",
     "choices": [
       "a. the child comfortably rests his/her feet on the standard foot peg of the motorcycle and he/she can reach around and grasp the waist of the motorcylist and he/she is wearing the standard protective helmet. (Ang bata ay kumportable na nakalagay ang mga paa sa standard foot peg ng motorsiklo at siya ay maaaring bumilang at humawak sa baywang ng motorsiklista, at siya ay nakasuot ng karaniwang helmet.)",
@@ -954,7 +956,9 @@
     ]
   },
   {
+    "answer": 1,
     "id": 95,
+    "comment": "pang #55 question dapat ito. not sure sa sagot",
     "question": "Which of the following is not a safe place to overtake? (Alin sa mga sumusunod ang hindi ligtas na lugar para mag-overtake/maglusot?)",
     "choices": [
       "a. before a bridge (bago ang tulay)",
@@ -963,8 +967,10 @@
     ]
   },
   {
+    "answer": 1,
     "id": 96,
-    "question": "What should a good driver do to help minimize pollution? (Ano ang dapat gawin ng isang mabuting drayber upang mabawasan ang polusyon?)",
+    "comment": "pang #56 question dapat ito",
+    "question": "Disregarding traffic lights during late hours of the night could: (Ang pagwawalang-bahala sa mga ilaw trapiko kapag gabi na ay:)",
     "choices": [
       "a. make you a good driver (makatutulong upang higit kang maging magaling na drayber)",
       "b. involve you in a fatal road crash (maaari kang makasama sa aksidente at matatay)",
@@ -972,7 +978,9 @@
     ]
   },
   {
+    "answer": 1,
     "id": 97,
+    "comment": "pang #57 question dapat ito",
     "question": "A good driver must meet one's social responsibilities of caring for other drivers by: (Ang maayos na drayber ay matutugunan ang responsibilidad sa lipunan sa pamamagitan nang:)",
     "choices": [
       "a. driving nobly to attract the attention of residents along the road (pagmamaneho nang maingay upang mapansin ng mga nadaanan na residente)",
@@ -981,7 +989,9 @@
     ]
   },
   {
+    "answer": 0,
     "id": 98,
+    "comment": "pang #58 question dapat ito",
     "question": "When the vehicle you are driving runs off the road or hits an electric post or a parked car, the most probable reason is: (Kapag ang minamaneho mong sasakyan ay lumihis sa kalsada o tumama sa poste ng kuryente o nakaparadang sasakyan, malamang na ang dahilan nito ay:)",
     "choices": [
       "a. you are driving too fast and you lost control of your vehicle (mabilis ang iyong pagpapatakbo at nawalan ka ng kontrol sa iyong sasakyan)",
@@ -990,7 +1000,9 @@
     ]
   },
   {
+    "answer": 1,
     "id": 99,
+    "comment": "pang #59 question dapat ito",
     "question": "If your vehicle broke down on the road, what should you do? (Kapag nasiraan ka ng sasakyan sa daan, ano ang gagawin mo?)",
     "choices": [
       "a. Leave the vehicle and call for a mechanic (Iwan ang sasakyan at tumawag ka ng mekaniko)",
@@ -999,7 +1011,9 @@
     ]
   },
   {
+    "answer": 0,
     "id": 100,
+    "comment": "pang #60 question dapat ito",
     "question": "What is the primary responsibility of a driver in times of a road crash? (Ano ang pangunahing responsibilidad ng isang drayber sa isang aksidente?)",
     "choices": [
       "a. Aid the victim (Tulungan ang naaksidente)",

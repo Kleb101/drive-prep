@@ -12,6 +12,7 @@ import {
   FormLabel,
   Button,
   Alert,
+  Box,
 } from '@mui/material';
 import { Question } from '@/interfaces/question';
 
@@ -33,7 +34,7 @@ export default function MultipleChoiceQuestion({
 
     setSubmitted(true);
 
-    const isSelectedAnswerCorrect = selected === question.answer;
+    const isSelectedAnswerCorrect = Number(selected) === question.answer;
     setIsCorrect(isSelectedAnswerCorrect);
 
     if (isSelectedAnswerCorrect) {
@@ -45,6 +46,18 @@ export default function MultipleChoiceQuestion({
     <Card sx={{ maxWidth: 600, margin: '20px auto' }}>
       <CardContent>
         <FormControl component="fieldset" fullWidth>
+          {question.imageSrc && (
+            <Box sx={{ textAlign: 'center', mb: 2, mt: 2 }}>
+              <img
+                src={question.imageSrc}
+                alt="Question visual"
+                style={{
+                  maxHeight: '120px',
+                  height: 'auto',
+                }}
+              />
+            </Box>
+          )}
           <FormLabel component="legend">
             <Typography variant="h6">{question.question}</Typography>
           </FormLabel>
@@ -56,7 +69,7 @@ export default function MultipleChoiceQuestion({
             {question.choices.map((choice, index) => (
               <FormControlLabel
                 key={index}
-                value={choice}
+                value={index}
                 control={<Radio />}
                 label={choice}
                 disabled={submitted}
