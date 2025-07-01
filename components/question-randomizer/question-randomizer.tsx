@@ -6,7 +6,6 @@ import { AnsweredQuestion, Question } from '@/interfaces/question';
 import shuffle from 'lodash/shuffle';
 import { isArray, isEmpty, sample } from 'lodash';
 import {
-  getAnsweredQuestions,
   getPendingQuestions,
   saveAnsweredQuestionsFromStorage,
   savePendingQuestionsToStorage,
@@ -55,7 +54,7 @@ const QuestionRandomizer = ({ questions }: QuestionRandomizerProps) => {
 
     if (hasPendingQuestionsSavedToStorage) {
       // use the ones saved in storage
-      setPendingQuestions(pendingQuestions);
+      setPendingQuestions(pendingQuestionsFromStorage);
     } else {
       const newPendingQuestions = shuffle(questions);
       setPendingQuestions(newPendingQuestions);
