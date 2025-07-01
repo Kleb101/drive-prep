@@ -20,14 +20,12 @@ import { resetQuestions } from '@/app/utils/question';
 import { redirect } from 'next/navigation';
 
 interface ExamResultPageProps {
-  examTitle: string;
   score: number;
   total: number;
   results: AnsweredQuestion[];
 }
 
 const ExamResult: React.FC<ExamResultPageProps> = ({
-  examTitle,
   score,
   total,
   results,
@@ -42,7 +40,7 @@ const ExamResult: React.FC<ExamResultPageProps> = ({
       <Card elevation={3}>
         <CardContent>
           <Typography variant="h4" gutterBottom>
-            {examTitle} - Results
+            Results
           </Typography>
           {/* <Typography variant="h6">Student: {studentName}</Typography> */}
           <Typography variant="h6" color="primary" sx={{ mt: 2 }}>

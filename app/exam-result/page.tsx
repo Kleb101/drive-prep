@@ -37,12 +37,7 @@ export default function ExamPage() {
     <main>
       <h1 style={{ textAlign: 'center' }}>TDC Exam Practice</h1>
       {isDone && score !== undefined && results && (
-        <ExamResult
-          examTitle="Sample Exam"
-          score={score}
-          total={total}
-          results={results}
-        />
+        <ExamResult score={score} total={total} results={results} />
       )}
 
       {isDone === false && (
