@@ -2,48 +2,91 @@
 
 import React, { useEffect, useState } from 'react';
 import MultipleChoiceQuestion from '@/components/multiple-choice-question/multiple-choice-question';
-import { Question } from '@/interfaces/question';
+import { AnsweredQuestion, Question } from '@/interfaces/question';
 import shuffle from 'lodash/shuffle';
-import { sample } from 'lodash';
+import { isArray, isEmpty, sample } from 'lodash';
 import {
-  getParsedQuestions,
-  removeAnsweredQuestion,
-  saveQuestions,
+  getAnsweredQuestions,
+  getPendingQuestions,
+  saveAnsweredQuestionsFromStorage,
+  savePendingQuestionsToStorage,
 } from '@/app/utils/question';
+import { redirect } from 'next/navigation';
 
 interface QuestionRandomizerProps {
   questions: Question[];
 }
+
 const QuestionRandomizer = ({ questions }: QuestionRandomizerProps) => {
-  const [randomizedQuestions, setRandomizedQuestions] = useState<Question[]>();
+  const [pendingQuestions, setPendingQuestions] = useState<Question[]>();
+  const [answeredQuestions, setAnsweredQuestions] =
+    useState<AnsweredQuestion[]>();
   const [question, setQuestion] = useState<Question>();
 
+  const pickRandomQuestion = (questions?: Question[]) => sample(questions);
+
+  const setNextQuestion = (randomQuestion: Question) => {
+    setQuestion(randomQuestion);
+  };
+
+  const onNextStep = (isCorrect: boolean, selectedAnswerIndex: number) => {
+    if (!question) return;
+
+    setAnsweredQuestions((previousValue) => [
+      ...(previousValue || []),
+      {
+        ...question,
+        isCorrect,
+        selectedAnswerIndex,
+      },
+    ]);
+
+    setPendingQuestions((previousValue) => [
+      ...(previousValue?.filter(
+        (pendingQuestion) => pendingQuestion.id !== question.id
+      ) || []),
+    ]);
+  };
+
   useEffect(() => {
-    const randomQuestions = getParsedQuestions();
-    if (!randomQuestions) {
-      const newRandomizedQuestions = shuffle(questions);
-      saveQuestions(newRandomizedQuestions);
-      setRandomizedQuestions(newRandomizedQuestions);
+    const pendingQuestionsFromStorage = getPendingQuestions();
+    const hasPendingQuestionsSavedToStorage =
+      pendingQuestionsFromStorage && pendingQuestionsFromStorage.length > 0;
+
+    if (hasPendingQuestionsSavedToStorage) {
+      // use the ones saved in storage
+      setPendingQuestions(pendingQuestions);
     } else {
-      setRandomizedQuestions(randomQuestions);
+      const newPendingQuestions = shuffle(questions);
+      setPendingQuestions(newPendingQuestions);
     }
   }, [questions]);
 
   useEffect(() => {
-    const randomQuestion = sample(randomizedQuestions);
-    setQuestion(randomQuestion);
-  }, [randomizedQuestions]);
+    if (answeredQuestions) {
+      saveAnsweredQuestionsFromStorage(answeredQuestions);
+    }
+  }, [answeredQuestions]);
 
-  const handleOnSelectedAnswerCorrect = () => {
-    removeAnsweredQuestion(question);
-  };
+  useEffect(() => {
+    if (pendingQuestions) {
+      savePendingQuestionsToStorage(pendingQuestions);
+
+      const randomQuestion = pickRandomQuestion(pendingQuestions);
+      if (randomQuestion) {
+        setNextQuestion(randomQuestion);
+      }
+    }
+
+    if (isEmpty(pendingQuestions) && isArray(pendingQuestions)) {
+      console.log('no remaining questions');
+      redirect('/exam-result');
+    }
+  }, [pendingQuestions]);
 
   return (
     question && (
-      <MultipleChoiceQuestion
-        question={question}
-        onSelectedAnswerCorrect={handleOnSelectedAnswerCorrect}
-      />
+      <MultipleChoiceQuestion question={question} onNextStep={onNextStep} />
     )
   );
 };

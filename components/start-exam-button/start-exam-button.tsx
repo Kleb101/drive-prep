@@ -3,6 +3,7 @@
 import React from 'react';
 import { Box, Button } from '@mui/material';
 import Link from 'next/link';
+import { resetQuestions } from '@/app/utils/question';
 
 const startExamButton = () => {
   return (
@@ -20,6 +21,7 @@ const startExamButton = () => {
       <p
         style={{
           textAlign: 'justify',
+          maxWidth: '500px',
         }}
       >
         Get ready to master the basics of driving! Drive Prep is designed to
@@ -27,7 +29,9 @@ const startExamButton = () => {
         engaging quizzes and practical learning materials. Boost your confidence
         and knowledge before you hit the road.
       </p>
+
       <Button
+        onClick={resetQuestions}
         component={Link} // tell MUI Button to render as Next.js Link
         href="/exam"
         variant="contained"

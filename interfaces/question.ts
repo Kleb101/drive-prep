@@ -7,3 +7,8 @@ export interface Question {
   imageSrc?: string;
   question: string;
 }
+
+export interface AnsweredQuestion extends Question {
+  isCorrect: boolean;
+  selectedAnswerIndex: number;
+}

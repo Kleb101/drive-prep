@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Card,
   CardContent,
@@ -15,19 +15,26 @@ import {
   Box,
 } from '@mui/material';
 import { Question } from '@/interfaces/question';
+import { CORRECT_ANSWER, INCORRECT_ANSWER } from '@/app/constants';
 
 interface MultipleChoiceQuestionProps {
   question: Question;
-  onSelectedAnswerCorrect: () => void;
+  onNextStep: (isCorrect: boolean, selected: number) => void;
 }
 
 export default function MultipleChoiceQuestion({
   question,
-  onSelectedAnswerCorrect,
+  onNextStep,
 }: MultipleChoiceQuestionProps) {
   const [selected, setSelected] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+
+  useEffect(() => {
+    setSelected(null);
+    setSubmitted(false);
+    setIsCorrect(false);
+  }, [question]);
 
   const handleSubmit = () => {
     if (!selected) return;
@@ -36,10 +43,6 @@ export default function MultipleChoiceQuestion({
 
     const isSelectedAnswerCorrect = Number(selected) === question.answer;
     setIsCorrect(isSelectedAnswerCorrect);
-
-    if (isSelectedAnswerCorrect) {
-      onSelectedAnswerCorrect();
-    }
   };
 
   return (
@@ -77,23 +80,28 @@ export default function MultipleChoiceQuestion({
             ))}
           </RadioGroup>
 
-          <Button
-            variant="contained"
-            onClick={handleSubmit}
-            sx={{ mt: 2 }}
-            disabled={submitted || !selected}
-          >
-            Submit
-          </Button>
+          {!submitted && (
+            <Button variant="contained" onClick={handleSubmit} sx={{ mt: 2 }}>
+              Submit
+            </Button>
+          )}
 
           {submitted && (
-            <Alert severity={isCorrect ? 'success' : 'error'} sx={{ mt: 2 }}>
-              {isCorrect
-                ? 'Correct! 🎉'
-                : `Incorrect. The correct answer is: ${
-                    question?.answer || 'bonus'
-                  }`}
-            </Alert>
+            <>
+              <Alert severity={isCorrect ? 'success' : 'error'} sx={{ mt: 2 }}>
+                {isCorrect
+                  ? CORRECT_ANSWER
+                  : `${INCORRECT_ANSWER} ${question.choices[question?.answer]}`}
+              </Alert>
+
+              <Button
+                variant="contained"
+                onClick={() => onNextStep(isCorrect, Number(selected))}
+                sx={{ mt: 2 }}
+              >
+                Next question
+              </Button>
+            </>
           )}
         </FormControl>
       </CardContent>

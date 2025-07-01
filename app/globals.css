@@ -3,13 +3,6 @@
   --foreground: #333333;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 html,
 body {
   height: 100%;
@@ -28,7 +21,6 @@ body {
 
 main {
   height: 100%;
-  background-color: gainsboro;
   padding: 50px 20px;
 }
 
