@@ -62,16 +62,16 @@ const ExamResult: React.FC<ExamResultPageProps> = ({
               <TableBody>
                 {results.map((row, index) => (
                   <TableRow key={index}>
-                    <TableCell sx={{ minWidth: '200px' }}>
+                    <TableCell sx={{ minWidth: '250px', verticalAlign: 'top' }}>
                       {row.question}
                     </TableCell>
-                    <TableCell sx={{ minWidth: '200px' }}>
+                    <TableCell sx={{ minWidth: '300px', verticalAlign: 'top' }}>
                       {row.choices[row.selectedAnswerIndex]}
                     </TableCell>
-                    <TableCell sx={{ minWidth: '200px' }}>
+                    <TableCell sx={{ minWidth: '300px', verticalAlign: 'top' }}>
                       {row.choices[row.answer]}
                     </TableCell>
-                    <TableCell>
+                    <TableCell sx={{ verticalAlign: 'top' }}>
                       <Typography color={row.isCorrect ? 'green' : 'error'}>
                         {row.isCorrect ? 'Correct' : 'Incorrect'}
                       </Typography>

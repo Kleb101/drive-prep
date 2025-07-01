@@ -19,6 +19,7 @@ export default function ExamPage() {
     const answeredQuestions = getAnsweredQuestions();
     const isExamDone = answeredQuestions?.length === total;
     setIsDone(isExamDone);
+
     if (isExamDone) {
       const totalScore = answeredQuestions.filter(
         (answeredQuestion) => answeredQuestion.isCorrect
@@ -26,7 +27,7 @@ export default function ExamPage() {
       setScore(totalScore);
       setResults(answeredQuestions);
     }
-  }, []);
+  }, [total]);
 
   const continueToQuiz = () => {
     redirect('/exam');

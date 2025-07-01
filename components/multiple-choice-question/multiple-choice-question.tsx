@@ -61,7 +61,15 @@ export default function MultipleChoiceQuestion({
               />
             </Box>
           )}
-          <FormLabel component="legend">
+          <FormLabel
+            component="legend"
+            sx={{
+              mb: {
+                xs: 2,
+                md: 0,
+              },
+            }}
+          >
             <Typography variant="h6">{question.question}</Typography>
           </FormLabel>
 
@@ -76,6 +84,12 @@ export default function MultipleChoiceQuestion({
                 control={<Radio />}
                 label={choice}
                 disabled={submitted}
+                sx={{
+                  mb: {
+                    xs: 2,
+                    md: 0,
+                  },
+                }}
               />
             ))}
           </RadioGroup>
